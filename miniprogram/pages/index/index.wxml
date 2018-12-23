@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 用户 openid -->
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+    <navigator url="login/login?title=login" open-type="navigate">
+      <label style="text-decoration: underline">登录查看更多信息</label>
+    </navigator>
+  </view>
+
+  <view class="common_style">
+    <label>分享程序</label>
+  </view>
+  <view class="common_style">
+    <label>联系我们 / 改进建议</label>
+  </view>
+  <view class="common_style">
+    <label>设置</label>
+  </view>
+  <view class="common_style">
+    <label>使用指南</label>
+  </view>
+
+</view>

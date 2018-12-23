@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+
+    <!-- 用户 openid -->
+    <view>
+        <text style="font-size: 17pt;">关键词搜索测试者</text>
+    </view>
+    <view class="flex-wrp" style="height: 300px;flex-direction:row; margin-top: 50rpx;">
+        <navigator url="undergrad/undergrad?title=undergrad" open-type="navigate">
+            <view class="flex-item bc_white">大学生</view>
+        </navigator>
+        <view class="flex-item bc_white">白领</view>
+        <view class="flex-item bc_white">工程师</view>
+        <view class="flex-item bc_white">教师</view>
+        <view class="flex-item bc_white">女性</view>
+        <view class="flex-item bc_white">女白领</view>
+    </view>
+    <view>
+        <text style="font-size: 13pt;text-decoration: underline">没找到？ 换一批</text>
+    </view>
+
+</view>
