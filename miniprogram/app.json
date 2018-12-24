@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/index/login/login",
     "pages/index/signup/signup",
+    "pages/index/howItWorks/howItWorks",
     "pages/test/test",
     "pages/test/undergrad/undergrad",
     "pages/post/post",
@@ -16,29 +17,29 @@
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#184b86",
     "navigationBarTitleText": "用户测试服务平台",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/test/test",
         "text": "找人测试",
-        "iconPath": "images/icon.png",
-        "selectedIconPath": "images/icon.png"
+        "iconPath": "images/search_off.png",
+        "selectedIconPath": "images/search_on.png"
       },
       {
         "pagePath": "pages/post/post",
         "text": "发布任务",
-        "iconPath": "images/icon.png",
-        "selectedIconPath": "images/icon.png"
+        "iconPath": "images/post_off.png",
+        "selectedIconPath": "images/post_on.png"
       },
       {
         "pagePath": "pages/index/index",
         "text": "我的",
-        "iconPath": "images/icon.png",
-        "selectedIconPath": "images/icon.png"
+        "iconPath": "images/me_off.png",
+        "selectedIconPath": "images/me_on.png"
       }
     ]
   }

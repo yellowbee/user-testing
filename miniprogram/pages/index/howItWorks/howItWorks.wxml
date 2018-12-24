@@ -1,0 +1,9 @@
+<view class="container">
+    <view><label style="font-size: 17pt;">使用指南</label></view>
+    <view>
+        <image
+            style="width: 583rpx; height: 663rpx;"
+            src="../../../images/how_it_works.png"
+        ></image>
+    </view>
+</view>

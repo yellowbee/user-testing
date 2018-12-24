@@ -28,7 +28,7 @@ page {
 }
 
 .flex-item-quarter {
-    width: 162rpx;
+    width: 149rpx;
 }
 
 .flex-item-left {
@@ -42,6 +42,11 @@ page {
 .flex-item-right {
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    width: 298rpx;
+    width: 280rpx;
     padding: 20rpx 20rpx;
+}
+
+.signup__btn {
+    background-color: #184b86;
+    color: white;
 }

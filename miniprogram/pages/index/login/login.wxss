@@ -52,3 +52,8 @@ page {
     margin: 20rpx 0;
 }
 
+.login__btn {
+    background-color: #184b86;
+    color: white;
+}
+

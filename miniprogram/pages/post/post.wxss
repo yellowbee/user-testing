@@ -45,3 +45,8 @@ page {
     width: 298rpx;
     padding: 20rpx 20rpx;
 }
+
+.post__btn {
+    background-color: #184b86;
+    color: white;
+}

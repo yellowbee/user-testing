@@ -20,9 +20,6 @@ page {
     width:249rpx;
     height: 129rpx;
 }
-.bc_green {background: green;width:100px; height: 100px;}
-.bc_red {background: red;width:100px; height: 100px;}
-.bc_blue {background: blue;width:100px; height: 100px;}
 
 .flex-item {
     text-align: center;

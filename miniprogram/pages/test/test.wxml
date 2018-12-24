@@ -2,7 +2,7 @@
 <view class="container">
 
     <!-- 用户 openid -->
-    <view>
+    <view style="margin-top: 40rpx;">
         <text style="font-size: 17pt;">关键词搜索测试者</text>
     </view>
     <view class="flex-wrp" style="height: 300px;flex-direction:row; margin-top: 50rpx;">

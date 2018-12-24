@@ -1,5 +1,7 @@
 <view class="container">
-    <view><label style="font-size: 17pt;">企业用户发布任务</label></view>
+    <view style="margin-top: 40rpx;">
+        <label style="font-size: 17pt;">企业用户发布任务</label>
+    </view>
     <form bindsubmit="formSubmit" bindreset="formReset">
         <view class="section common_style" style="margin-top: 50rpx">
             <input name="input" placeholder="任务名称" />
@@ -33,7 +35,7 @@
                 <textarea auto-focus="true" style="height: 200rpx" placeholder="任务描述"/>
         </view>
         <view class="btn-area">
-            <button formType="submit">发布</button>
+            <button formType="submit" class="post__btn">发布</button>
         </view>
     </form>
 </view>
